@@ -1,7 +1,7 @@
 (function(){
   'use strict';
 
-var app = angular.module('cityblocks', [ 'ui.router']);
+var app = angular.module('cityblocks', ['ui.router', 'uiGmapgoogle-maps']);
 
 //config
 app
@@ -12,8 +12,8 @@ app
     $stateProvider
       .state('home', {
           url: '/',
-          templateUrl : 'app/login/home.html',
-          controller  : 'HomeCtrl'
+          templateUrl : 'app/templates/home.html',
+          controller  : 'homeCtrl'
       })
   });
 

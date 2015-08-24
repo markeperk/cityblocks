@@ -1,0 +1,40 @@
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.angular-google-map-container { 
+	margin-top: 20px;
+	width: 100%;
+	height: 1000px; 
+}
+.nav {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  padding: 4px;
+  background: rgba(255, 255, 255, .8);
+  text-align: left;
+  font-family: arial, verdana;
+  font-size: 10px;
+  color: gray;
+}
+.navtop {
+  top: 0;
+}
+.box {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  padding: 4px;
+  background: rgba(255, 255, 255, .8);
+  text-align: left;
+  font-family: arial, verdana;
+  font-size: 10px;
+  color: gray;
+}
+.box1 {
+  bottom: 0;
+}
